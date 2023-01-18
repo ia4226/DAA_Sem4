@@ -1,0 +1,20 @@
+Linear Search: 
+It is a sequential searching algorithm, where to start from one end and check every element of the list, till the desired element is not found. 
+It is the simplest searching algorithm.
+
+
+array[i] --> elemts of the array in i
+k --> element/data to be searched
+
+//Pseudocode
+
+for(i=0;i<n;i++){
+if(array[i] == k)
+printf("Element is found %d", i);}
+break;
+}
+
+Time Complexity:
+(a) Best Case - O(1) [element is at the first position]
+(b) Average Case - O(n)
+(c) Worst Case -O(n) [element not found]
