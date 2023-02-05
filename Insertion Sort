@@ -1,0 +1,20 @@
+#Insertion Sort
+It is a sorting algorithm that places an unsorted element at its suitable place in each insertion
+
+#Aim
+To sort a given unsorted array in ascending order
+
+#Pseudocode
+for (i = 1; i < n ; i++){
+ temp = a[i];
+ j = i-1;
+ while (j>= 0 && a[j] > temp){
+ a{j+1} = a{i};
+ j=j-1;}
+ a{j+1} = temp;
+ 
+ #Time Complexity
+ Best = 0(n)
+ Worst = 0(n*n)
+ Average = 0(n*n)
+ 
