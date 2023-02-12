@@ -1,0 +1,30 @@
+#BinarySearch
+It is the searching technique that works efficiently on sorted lists to follow Divide and Conquer.
+
+#Pseudocode
+binary_search
+sorted array -> A
+size of array -> n
+value to be searched -> X
+
+set lower bound = 1
+set lower bound = n
+
+while x not found
+ if upperbound < lowerbound
+  EXIT: X does not exist
+ set midpoint = (lowerbound + upperbound)/ 2
+
+if A[midpoint] < X
+  set lowerbound = midpoint + 1
+if A[midpoint] > X
+  set upperbound = midpoint - 1
+A[midpoint] = X
+  EXIT: X found at location midpoint
+  end while
+end procedure.
+
+#TimeComplexity
+Best - O(1)
+Average - O(log n )
+Worst - O(log n)
